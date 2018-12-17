@@ -1,0 +1,102 @@
+success open and validate gatsby-config — 0.006 s
+success load plugins — 0.245 s
+success onPreInit — 0.224 s
+success delete html and css files from previous builds — 0.006 s
+success initialize cache — 0.009 s
+success copy gatsby files — 0.015 s
+success onPreBootstrap — 0.004 s
+[32m -> wordpress__POST fetched : 1[0m
+[32m -> wordpress__PAGE fetched : 1[0m
+[32m -> wordpress__wp_media fetched : 1[0m
+[32m -> wordpress__wp_types fetched : 1[0m
+[32m -> wordpress__wp_statuses fetched : 1[0m
+[32m -> wordpress__wp_taxonomies fetched : 1[0m
+[32m -> wordpress__CATEGORY fetched : 1[0m
+[32m -> wordpress__TAG fetched : 0[0m
+[32m -> wordpress__wp_users fetched : 1[0m
+[31mThe server response was "401 Unauthorized"[0m
+[31mInner exception message : "You are not currently logged in."[0m
+[32m -> wordpress__wp_comments fetched : 1[0m
+[31mThe server response was "401 Unauthorized"[0m
+[31mInner exception message : "Sorry, you are not allowed to do that."[0m
+success source and transform nodes — 0.271 s
+success building schema — 0.442 s
+
+[0m
+[0m  [0m[97m[41mGraphQLError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot query field "allWordpressTag" on type "Query". Did you me[0m  [0m[97m[41man "allWordpressPage", "allWordpressPost", "wordpressPage", "allWordpressWpTyp[0m  [0m[97m[41mes", or "allWordpressCategory"?[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mdebuggability.js[0m[90m:[0m[93m313[0m[37m [0m[37mPromise._execute[0m
+[0m  [0m  [0m[90m[lib]/[gatsby-cli]/[bluebird]/js/release/debuggability.js:313:9[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mpromise.js[0m[90m:[0m[93m483[0m[37m [0m[37mPromise._resolveFromExecutor[0m
+[0m  [0m  [0m[90m[lib]/[gatsby-cli]/[bluebird]/js/release/promise.js:483:18[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mpromise.js[0m[90m:[0m[93m79[0m[37m [0m[37mnew Promise[0m
+[0m  [0m  [0m[90m[lib]/[gatsby-cli]/[bluebird]/js/release/promise.js:79:10[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mindex.js[0m[90m:[0m[93m300[0m[37m [0m[37mgraphqlRunner[0m
+[0m  [0m  [0m[90m[gatsby-wordpress]/[gatsby]/dist/bootstrap/index.js:300:14[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m142[0m[37m [0m[37mgraphql.then.then.then.then.then.then[0m
+[0m  [0m  [0m[90m/home/cs/work/gatsby-wordpress/gatsby-node.js:142:14[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mutil.js[0m[90m:[0m[93m16[0m[37m [0m[37mtryCatcher[0m
+[0m  [0m  [0m[90m[lib]/[gatsby-cli]/[bluebird]/js/release/util.js:16:23[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mpromise.js[0m[90m:[0m[93m512[0m[37m [0m[37mPromise._settlePromiseFromHandler[0m
+[0m  [0m  [0m[90m[lib]/[gatsby-cli]/[bluebird]/js/release/promise.js:512:31[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mpromise.js[0m[90m:[0m[93m569[0m[37m [0m[37mPromise._settlePromise[0m
+[0m  [0m  [0m[90m[lib]/[gatsby-cli]/[bluebird]/js/release/promise.js:569:18[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mpromise.js[0m[90m:[0m[93m614[0m[37m [0m[37mPromise._settlePromise0[0m
+[0m  [0m  [0m[90m[lib]/[gatsby-cli]/[bluebird]/js/release/promise.js:614:10[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mpromise.js[0m[90m:[0m[93m694[0m[37m [0m[37mPromise._settlePromises[0m
+[0m  [0m  [0m[90m[lib]/[gatsby-cli]/[bluebird]/js/release/promise.js:694:18[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mpromise.js[0m[90m:[0m[93m638[0m[37m [0m[37mPromise._fulfill[0m
+[0m  [0m  [0m[90m[lib]/[gatsby-cli]/[bluebird]/js/release/promise.js:638:18[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mpromise.js[0m[90m:[0m[93m432[0m[37m [0m[37mPromise._resolveCallback[0m
+[0m  [0m  [0m[90m[lib]/[gatsby-cli]/[bluebird]/js/release/promise.js:432:57[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mpromise.js[0m[90m:[0m[93m524[0m[37m [0m[37mPromise._settlePromiseFromHandler[0m
+[0m  [0m  [0m[90m[lib]/[gatsby-cli]/[bluebird]/js/release/promise.js:524:17[0m
+[0m  [0m
+[0m
+
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read property 'filter' of undefined[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m274[0m[37m [0m[37mPromise.mapSeries.catch.then.results[0m
+[0m  [0m  [0m[90m[gatsby-wordpress]/[gatsby]/dist/utils/api-runner-node.js:274:42[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mutil.js[0m[90m:[0m[93m16[0m[37m [0m[37mtryCatcher[0m
+[0m  [0m  [0m[90m[gatsby-wordpress]/[bluebird]/js/release/util.js:16:23[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mpromise.js[0m[90m:[0m[93m512[0m[37m [0m[37mPromise._settlePromiseFromHandler[0m
+[0m  [0m  [0m[90m[gatsby-wordpress]/[bluebird]/js/release/promise.js:512:31[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mpromise.js[0m[90m:[0m[93m569[0m[37m [0m[37mPromise._settlePromise[0m
+[0m  [0m  [0m[90m[gatsby-wordpress]/[bluebird]/js/release/promise.js:569:18[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mpromise.js[0m[90m:[0m[93m614[0m[37m [0m[37mPromise._settlePromise0[0m
+[0m  [0m  [0m[90m[gatsby-wordpress]/[bluebird]/js/release/promise.js:614:10[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mpromise.js[0m[90m:[0m[93m694[0m[37m [0m[37mPromise._settlePromises[0m
+[0m  [0m  [0m[90m[gatsby-wordpress]/[bluebird]/js/release/promise.js:694:18[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93masync.js[0m[90m:[0m[93m138[0m[37m [0m[37m_drainQueueStep[0m
+[0m  [0m  [0m[90m[gatsby-wordpress]/[bluebird]/js/release/async.js:138:12[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93masync.js[0m[90m:[0m[93m131[0m[37m [0m[37m_drainQueue[0m
+[0m  [0m  [0m[90m[gatsby-wordpress]/[bluebird]/js/release/async.js:131:9[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93masync.js[0m[90m:[0m[93m147[0m[37m [0m[37mAsync._drainQueues[0m
+[0m  [0m  [0m[90m[gatsby-wordpress]/[bluebird]/js/release/async.js:147:5[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93masync.js[0m[90m:[0m[93m17[0m[37m [0m[37mImmediate.Async.drainQueues [as _onImmediate][0m
+[0m  [0m  [0m[90m[gatsby-wordpress]/[bluebird]/js/release/async.js:17:14[0m
+[0m  [0m
+[0m
